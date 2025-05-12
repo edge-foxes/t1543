@@ -1,6 +1,6 @@
 # TMP 1543
 
 ```sh
-docker build -t a2t
-docker run --rm -it --volume .:/output a2t URL_HERE
+docker image load v2s-PLATFORM.tar
+docker run --rm -it --volume .:/output v2s URL_HERE
 ```
