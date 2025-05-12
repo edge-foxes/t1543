@@ -1,6 +1,6 @@
 # TMP 1543
 
 ```sh
-docker load < v2s-PLATFORM.tar
-docker run --rm -it --volume .:/output v2s URL_HERE
+docker load < s2t-PLATFORM.tar
+docker run --rm -it --volume .:/output s2t URL_HERE
 ```
